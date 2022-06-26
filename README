@@ -1,0 +1,12 @@
+This project is an attempt to implement kQUIC which is QUIC inside kernel.
+Since kernel size is too big, the touched files are in their respective folders.
+
+Create a normal client and server file to open connect and send data over a QUIC socket.
+Use symbol IPPROTO_QUIC for socket establishment. 
+
+For ancillary data use:
+  struct msghdr *msg
+  and cmag_type is the field which will be application ID.
+  
+  
+  
