@@ -6,6 +6,17 @@ Since kernel size is too big, the touched files are in their respective folders.
 Create a normal client and server file to open connect and send data over a QUIC socket.
 Use symbol IPPROTO_QUIC for socket establishment. 
 
+Installing the kernel:
+1. Clone the Linux source.
+2. Add Linux files from the tar folder.
+3. Modify the make file to compile the quic related files, as they are new
+4. Compile and install the linux.
+
+Usage:
+1. Socket type is IPPROTO_QUIC, and socket opening is normal procedure just like UDP or TCP socket.
+2. Write and read system calls just works normally.
+3. Associated the above msghdr struct with the socket APIs for application multiplexing.
+
 For ancillary data use:
   struct msghdr *msg
   and cmag_type is the field which will be application ID.
