@@ -75,6 +75,3 @@ We welcome contributions to enhance and optimize kQUIC! Please submit a pull req
 Developed by **Puneet Kumar**, Santa Clara University, under the mentorship of **Professor Behnam Dezfouli** at **SIOTLAB**.
 
 ---
-
-## **License**
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
