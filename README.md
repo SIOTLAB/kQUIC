@@ -39,7 +39,7 @@ git clone https://github.com/torvalds/linux.git
 ```
 
 ### **Step 2: Modify and Compile the Kernel**
-1. Add the necessary QUIC-related files to the source tree.
+1. Add the necessary QUIC-related files to the source tree, as per the files/directories mentioned in the source tree.
 2. Update the **Makefile** to include the QUIC implementation.
 3. Compile the kernel:
    ```bash
